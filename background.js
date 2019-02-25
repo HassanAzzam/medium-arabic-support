@@ -21,8 +21,9 @@ let checkPost = () => {
   if(post && post.textContent && post.textContent.length && checkArabic(post.textContent[0])) {
      sheet.insertRule(".postArticle-content { direction: rtl !important }");
      sheet.insertRule(".postArticle-content .u-paddingLeft15 { padding-right: 15px !important }");
+     sheet.insertRule(".postArticle-content .u-marginLeft10 { margin-right: 10px !important }");
   }
 };
 
 // document.onload = () => { checkPost() };
-setTimeout(checkPost, 100);
+setTimeout(checkPost, 200);
