@@ -1,6 +1,6 @@
 {
   "name": "Medium Arabic Support",
-  "version": "1.0",
+  "version": "1.01",
   "description": "Read Arabic posts clearly on medium.com",
   "content_scripts": [
     {
